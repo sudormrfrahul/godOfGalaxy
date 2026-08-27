@@ -1,0 +1,241 @@
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    gap: 1rem;
+
+    border-bottom: 5px solid white;
+  }
+
+  #best {
+    font-size: 1.5rem;
+    background: linear-gradient(-135deg, #8be100, #bdff52, #8ee600, #bdff52);
+    max-width: 18rem;
+    max-height: 5rem;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 4rem;
+    z-index: 1000;
+
+    text-align: center;
+    letter-spacing: 1.2px;
+
+    font-family: "Tangerine", cursive;
+  }
+
+  .ribbon img {
+    width: 100%;
+    height: auto;
+  }
+
+  audio {
+    opacity: 100%;
+    position: relative;
+    border-radius: 30rem;
+    border: 5px solid #ff878f;
+    width: 100%;
+    scale: 0.7;
+  }
+
+  .nav-bar a {
+    font-size: 1.2rem;
+  }
+
+  .main-box {
+    background-color: transparent;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 4em;
+  }
+
+  .pfps {
+    width: 20rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.2rem;
+    flex-direction: column;
+    z-index: 1;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+    box-shadow: 2px 10px 10px #00000030;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+
+    background: linear-gradient(135deg, #010101, #1f1f1f, #0a0a0a);
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateY(-1000px);
+    }
+  }
+
+  .pfp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+    height: 18rem;
+    /* background-image: linear-gradient(to bottom, #a2ff00, #010101); */
+    border-radius: 50%;
+    animation: slide 10s linear;
+    border: none;
+
+    /* animation: fadeIn 2s ease; */
+    /* animation-timeline: view();
+    animation-range: entry 0%; */
+  }
+
+  .pfp:hover {
+    background-image: none;
+    transition: 0.5s ease;
+    border: none;
+  }
+
+  #pfp-image {
+    width: 15rem;
+    height: auto;
+    border-radius: 50%;
+    overflow-x: auto;
+    animation: fadeIn 2s ease;
+    animation-timeline: view();
+    animation-range: entry 0%;
+  }
+
+  #pfp-image:hover {
+    width: 17rem;
+    height: auto;
+    transition: 0.3s ease;
+  }
+
+  #best-akkoi {
+    font-size: 12px;
+    letter-spacing: 0.5rem;
+  }
+
+  /* box 1 */
+  .mainbox-1 {
+    width: 20rem;
+    background-color: #5eab00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+
+    border-radius: 2rem;
+    border: 3px solid rgb(175, 255, 2);
+
+    gap: 0.8rem;
+    animation: fadeIn 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry -1%;
+  }
+
+  #gif-1 {
+    width: 280px;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 1px 2px 10px rgb(42, 41, 41);
+  }
+  #gif-2 {
+    width: 280px;
+    height: auto;
+    border-radius: 1.5rem;
+    box-shadow: 1px 2px 10px rgb(42, 41, 41);
+  }
+
+  .mainbox-1-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    gap: 0.2rem;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    width: 18rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 10px #21212146;
+
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .my-wish {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+
+    min-width: 20rem;
+    height: auto;
+    background: linear-gradient(135deg, #ff0e3a, #91002c);
+    border-radius: 1rem;
+    padding: 1.5rem;
+
+    font-size: 18px;
+    font-weight: bolder;
+
+    border: 3px solid white;
+
+    animation: fadeIn 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0%;
+  }
+
+  footer div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a40000d3;
+    padding: 0.5rem;
+    height: 5vh;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.8rem;
+    max-width: 200em;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+    color: #f1e9ea;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  footer img {
+    width: 100px;
+    height: auto;
+    bottom: -660px;
+  }
+
+  #icon-1 {
+    position: absolute;
+    /* left: -0px; */
+    bottom: -620px;
+  }
+  #icon-2 {
+    position: absolute;
+    /* right: -0px; */
+    bottom: -1210px;
+  }
+}
