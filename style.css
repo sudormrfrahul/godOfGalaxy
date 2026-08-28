@@ -232,7 +232,7 @@ footer div {
   justify-content: center;
   display: flex;
   justify-content: space-evenly;
-  background: linear-gradient(135deg, #2c2c2c, #060606, #2c2c2c, #0a0a0a);
+  background: linear-gradient(135deg, #030303, #060606, #000000, #0a0a0a);
   padding: 1rem;
   height: 10vh;
   z-index: 0;
